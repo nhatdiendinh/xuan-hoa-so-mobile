@@ -1,0 +1,753 @@
+{
+  "updatedAt": "2026-08-04T16:05:00+07:00",
+  "kpis": [
+    {
+      "key": "totalUsers",
+      "label": "Tổng người dùng",
+      "value": 18520,
+      "unit": "người",
+      "delta": 6.8,
+      "deltaType": "percent",
+      "tone": "up",
+      "spark": [
+        6320,
+        6810,
+        7280,
+        7560,
+        8020,
+        8460,
+        9140,
+        9820,
+        10560,
+        11240,
+        11980,
+        12486
+      ]
+    },
+    {
+      "key": "activeUsers30d",
+      "label": "Người dùng hoạt động 30 ngày",
+      "value": 12486,
+      "unit": "người",
+      "delta": 8.4,
+      "deltaType": "percent",
+      "tone": "up",
+      "spark": [
+        8020,
+        8460,
+        9140,
+        9820,
+        10560,
+        11240,
+        11980,
+        12486
+      ]
+    },
+    {
+      "key": "coverageRate",
+      "label": "Tỷ lệ người dân tiếp cận",
+      "value": 67.4,
+      "unit": "%",
+      "delta": 4.2,
+      "deltaType": "point",
+      "tone": "up",
+      "spark": [
+        55,
+        57,
+        59,
+        61,
+        62,
+        64,
+        66,
+        67.4
+      ]
+    },
+    {
+      "key": "feedbackTotal",
+      "label": "Tổng phản ánh trong tháng",
+      "value": 235,
+      "unit": "phản ánh",
+      "delta": 12.1,
+      "deltaType": "percent",
+      "tone": "neutral",
+      "spark": [
+        180,
+        192,
+        201,
+        210,
+        218,
+        224,
+        229,
+        235
+      ]
+    },
+    {
+      "key": "feedbackOnTimeRate",
+      "label": "Tỷ lệ phản ánh đúng hạn",
+      "value": 94.6,
+      "unit": "%",
+      "delta": 2.3,
+      "deltaType": "point",
+      "tone": "up",
+      "spark": [
+        89,
+        90,
+        91,
+        92,
+        92.6,
+        93.4,
+        94,
+        94.6
+      ]
+    },
+    {
+      "key": "tasksProcessing",
+      "label": "Công việc đang xử lý",
+      "value": 72,
+      "unit": "công việc",
+      "delta": -5.3,
+      "deltaType": "percent",
+      "tone": "down_good",
+      "spark": [
+        92,
+        90,
+        86,
+        84,
+        80,
+        78,
+        75,
+        72
+      ]
+    },
+    {
+      "key": "tasksOverdue",
+      "label": "Công việc quá hạn",
+      "value": 8,
+      "unit": "công việc",
+      "delta": -27.3,
+      "deltaType": "percent",
+      "tone": "down_good",
+      "spark": [
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        9,
+        8
+      ]
+    },
+    {
+      "key": "wardPerformanceScore",
+      "label": "Điểm hiệu quả toàn phường",
+      "value": 86.2,
+      "unit": "điểm",
+      "delta": 3.1,
+      "deltaType": "point",
+      "tone": "up",
+      "spark": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85.4,
+        86.2
+      ]
+    }
+  ],
+  "users": {
+    "total": 18520,
+    "active7d": 8940,
+    "active30d": 12486,
+    "newInMonth": 1284,
+    "newGrowth": 11.6,
+    "returnRate": 62.8,
+    "months": [
+      "09/2025",
+      "10/2025",
+      "11/2025",
+      "12/2025",
+      "01/2026",
+      "02/2026",
+      "03/2026",
+      "04/2026",
+      "05/2026",
+      "06/2026",
+      "07/2026",
+      "08/2026"
+    ],
+    "activeSeries": [
+      6320,
+      6810,
+      7280,
+      7560,
+      8020,
+      8460,
+      9140,
+      9820,
+      10560,
+      11240,
+      11980,
+      12486
+    ],
+    "newSeries": [
+      420,
+      510,
+      470,
+      390,
+      560,
+      620,
+      740,
+      810,
+      920,
+      1040,
+      1160,
+      1284
+    ]
+  },
+  "feedback": {
+    "total": 235,
+    "new": 18,
+    "processing": 36,
+    "completed": 176,
+    "overdue": 5,
+    "satisfactionRate": 91.2,
+    "byStatus": [
+      {
+        "name": "Mới tiếp nhận",
+        "value": 18,
+        "rate": 7.7,
+        "color": "#2563EB"
+      },
+      {
+        "name": "Đang xử lý",
+        "value": 36,
+        "rate": 15.3,
+        "color": "#F59E0B"
+      },
+      {
+        "name": "Đã hoàn thành",
+        "value": 176,
+        "rate": 74.9,
+        "color": "#059669"
+      },
+      {
+        "name": "Quá hạn",
+        "value": 5,
+        "rate": 2.1,
+        "color": "#DC2626"
+      }
+    ],
+    "byField": [
+      {
+        "name": "Môi trường - rác thải",
+        "value": 68,
+        "rate": 28.9,
+        "avgHours": 14.2
+      },
+      {
+        "name": "Hạ tầng - chiếu sáng",
+        "value": 54,
+        "rate": 23.0,
+        "avgHours": 21.6
+      },
+      {
+        "name": "Trật tự đô thị",
+        "value": 42,
+        "rate": 17.9,
+        "avgHours": 19.8
+      },
+      {
+        "name": "An sinh - xã hội",
+        "value": 31,
+        "rate": 13.2,
+        "avgHours": 11.4
+      },
+      {
+        "name": "An ninh - trật tự",
+        "value": 24,
+        "rate": 10.2,
+        "avgHours": 8.7
+      },
+      {
+        "name": "Khác",
+        "value": 16,
+        "rate": 6.8,
+        "avgHours": 16.3
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "code": "KP01",
+      "users": 856,
+      "feedback": 21,
+      "overdue": 0,
+      "onTime": 98.5,
+      "events": 6,
+      "survey": 72.4,
+      "score": 89,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP02",
+      "users": 912,
+      "feedback": 26,
+      "overdue": 1,
+      "onTime": 96.1,
+      "events": 8,
+      "survey": 69.8,
+      "score": 87,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP03",
+      "users": 741,
+      "feedback": 19,
+      "overdue": 0,
+      "onTime": 100,
+      "events": 5,
+      "survey": 65.2,
+      "score": 88,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP04",
+      "users": 1034,
+      "feedback": 32,
+      "overdue": 1,
+      "onTime": 93.7,
+      "events": 7,
+      "survey": 61.5,
+      "score": 84,
+      "status": "Khá"
+    },
+    {
+      "code": "KP05",
+      "users": 1245,
+      "feedback": 38,
+      "overdue": 2,
+      "onTime": 92.1,
+      "events": 8,
+      "survey": 70.4,
+      "score": 86,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP06",
+      "users": 980,
+      "feedback": 27,
+      "overdue": 0,
+      "onTime": 96.8,
+      "events": 6,
+      "survey": 58.7,
+      "score": 83,
+      "status": "Khá"
+    },
+    {
+      "code": "KP07",
+      "users": 1120,
+      "feedback": 41,
+      "overdue": 3,
+      "onTime": 87.8,
+      "events": 4,
+      "survey": 52.1,
+      "score": 76,
+      "status": "Cần chú ý"
+    },
+    {
+      "code": "KP08",
+      "users": 906,
+      "feedback": 31,
+      "overdue": 1,
+      "onTime": 93.5,
+      "events": 7,
+      "survey": 66.9,
+      "score": 85,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP09",
+      "users": 788,
+      "feedback": 22,
+      "overdue": 0,
+      "onTime": 97.2,
+      "events": 5,
+      "survey": 63.3,
+      "score": 86,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP10",
+      "users": 842,
+      "feedback": 24,
+      "overdue": 0,
+      "onTime": 98.0,
+      "events": 6,
+      "survey": 67.5,
+      "score": 88,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP11",
+      "users": 935,
+      "feedback": 28,
+      "overdue": 0,
+      "onTime": 96.4,
+      "events": 7,
+      "survey": 64.1,
+      "score": 86,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP12",
+      "users": 1077,
+      "feedback": 35,
+      "overdue": 1,
+      "onTime": 94.2,
+      "events": 6,
+      "survey": 59.6,
+      "score": 82,
+      "status": "Khá"
+    },
+    {
+      "code": "KP13",
+      "users": 741,
+      "feedback": 19,
+      "overdue": 0,
+      "onTime": 100,
+      "events": 5,
+      "survey": 65.2,
+      "score": 88,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP14",
+      "users": 1034,
+      "feedback": 32,
+      "overdue": 1,
+      "onTime": 93.7,
+      "events": 7,
+      "survey": 61.5,
+      "score": 84,
+      "status": "Khá"
+    },
+    {
+      "code": "KP15",
+      "users": 1245,
+      "feedback": 38,
+      "overdue": 2,
+      "onTime": 92.1,
+      "events": 8,
+      "survey": 70.4,
+      "score": 86,
+      "status": "Tốt"
+    },
+    {
+      "code": "KP16",
+      "users": 980,
+      "feedback": 27,
+      "overdue": 0,
+      "onTime": 96.8,
+      "events": 6,
+      "survey": 58.7,
+      "score": 83,
+      "status": "Khá"
+    },
+    {
+      "code": "KP17",
+      "users": 1120,
+      "feedback": 41,
+      "overdue": 3,
+      "onTime": 87.8,
+      "events": 4,
+      "survey": 52.1,
+      "score": 76,
+      "status": "Cần chú ý"
+    },
+    {
+      "code": "KP18",
+      "users": 1034,
+      "feedback": 32,
+      "overdue": 1,
+      "onTime": 93.7,
+      "events": 7,
+      "survey": 61.5,
+      "score": 84,
+      "status": "Khá"
+    }
+  ],
+  "mapLegend": [
+    {
+      "range": "85 - 100",
+      "label": "Hoạt động tốt",
+      "color": "#059669"
+    },
+    {
+      "range": "80 - 84",
+      "label": "Khá",
+      "color": "#2563EB"
+    },
+    {
+      "range": "70 - 79",
+      "label": "Cần theo dõi",
+      "color": "#EA580C"
+    },
+    {
+      "range": "Dưới 70",
+      "label": "Cảnh báo",
+      "color": "#DC2626"
+    },
+    {
+      "range": "Chưa có dữ liệu",
+      "label": "Không xác định",
+      "color": "#94A3B8"
+    }
+  ],
+  "tasks": {
+    "total": 486,
+    "completed": 392,
+    "processing": 72,
+    "dueSoon": 14,
+    "overdue": 8,
+    "onTimeRate": 92.3,
+    "onTimeDelta": 2.8,
+    "avgDays": 2.4,
+    "avgDaysDelta": -0.3,
+    "byUnit": [
+      {
+        "unit": "Văn phòng UBND",
+        "total": 84,
+        "completed": 72,
+        "onTime": 95.8,
+        "overdue": 1,
+        "score": 90
+      },
+      {
+        "unit": "Văn hóa - Xã hội",
+        "total": 96,
+        "completed": 78,
+        "onTime": 94.9,
+        "overdue": 1,
+        "score": 89
+      },
+      {
+        "unit": "Kinh tế - Hạ tầng",
+        "total": 112,
+        "completed": 86,
+        "onTime": 88.4,
+        "overdue": 4,
+        "score": 78
+      },
+      {
+        "unit": "Trung tâm HCCC",
+        "total": 73,
+        "completed": 62,
+        "onTime": 96.7,
+        "overdue": 0,
+        "score": 92
+      },
+      {
+        "unit": "Địa chính - Xây dựng",
+        "total": 68,
+        "completed": 54,
+        "onTime": 86.2,
+        "overdue": 2,
+        "score": 75
+      },
+      {
+        "unit": "Công an phường",
+        "total": 53,
+        "completed": 40,
+        "onTime": 93.1,
+        "overdue": 0,
+        "score": 88
+      }
+    ],
+    "watchList": [
+      {
+        "code": "CV-260801-014",
+        "title": "Xử lý điểm ngập cục bộ đường số 6",
+        "unit": "Địa chính - Xây dựng",
+        "due": "01/08/2026",
+        "status": "Quá hạn 3 ngày",
+        "level": "critical"
+      },
+      {
+        "code": "CV-260802-027",
+        "title": "Rà soát đèn chiếu sáng KP07",
+        "unit": "Địa chính - Xây dựng",
+        "due": "02/08/2026",
+        "status": "Quá hạn 2 ngày",
+        "level": "critical"
+      },
+      {
+        "code": "CV-260803-031",
+        "title": "Xác minh phản ánh lấn chiếm vỉa hè",
+        "unit": "Công an phường",
+        "due": "05/08/2026",
+        "status": "Sắp đến hạn",
+        "level": "warning"
+      },
+      {
+        "code": "CV-260803-044",
+        "title": "Chuẩn bị hoạt động hè thiếu nhi",
+        "unit": "Văn hóa - Xã hội",
+        "due": "06/08/2026",
+        "status": "Đang xử lý",
+        "level": "info"
+      },
+      {
+        "code": "CV-260804-006",
+        "title": "Cập nhật danh sách hộ khó khăn",
+        "unit": "Văn hóa - Xã hội",
+        "due": "07/08/2026",
+        "status": "Mới giao",
+        "level": "info"
+      }
+    ]
+  },
+  "communication": {
+    "newsPosted": 48,
+    "newsViews": 32540,
+    "newsAvgViews": 678,
+    "announcementsSent": 26,
+    "announcementViewRate": 78.6,
+    "eventsHeld": 67,
+    "eventParticipants": 4286,
+    "surveyResponseRate": 64.2,
+    "videoViews": 18420,
+    "newsViewSeries": [
+      {
+        "name": "Tuần 1",
+        "value": 6420
+      },
+      {
+        "name": "Tuần 2",
+        "value": 7180
+      },
+      {
+        "name": "Tuần 3",
+        "value": 8640
+      },
+      {
+        "name": "Tuần 4",
+        "value": 10300
+      }
+    ],
+    "digitalLearning": [
+      {
+        "step": "Đã đăng ký",
+        "value": 3240,
+        "rate": 100
+      },
+      {
+        "step": "Đã bắt đầu học",
+        "value": 2876,
+        "rate": 88.8
+      },
+      {
+        "step": "Hoàn thành khóa",
+        "value": 2184,
+        "rate": 67.4
+      },
+      {
+        "step": "Đạt bài kiểm tra",
+        "value": 1968,
+        "rate": 60.7
+      },
+      {
+        "step": "Được cấp chứng nhận",
+        "value": 1842,
+        "rate": 56.9
+      }
+    ],
+    "upcomingEvents": [
+      {
+        "time": "05/08 - 18:30",
+        "title": "Sinh hoạt chuyên đề an toàn số",
+        "place": "Nhà văn hóa KP05",
+        "register": "186/200",
+        "rate": 93
+      },
+      {
+        "time": "07/08 - 07:30",
+        "title": "Ngày Chủ nhật xanh",
+        "place": "Tuyến đường số 3",
+        "register": "142/180",
+        "rate": 79
+      },
+      {
+        "time": "09/08 - 08:00",
+        "title": "Tập huấn dịch vụ công trực tuyến",
+        "place": "Hội trường phường",
+        "register": "218/250",
+        "rate": 87
+      },
+      {
+        "time": "12/08 - 19:00",
+        "title": "Đêm văn nghệ cộng đồng",
+        "place": "Công viên trung tâm",
+        "register": "Đang mở",
+        "rate": 0
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "level": "critical",
+      "text": "03 phản ánh tại KP07 đã quá hạn trên 3 ngày"
+    },
+    {
+      "level": "high",
+      "text": "08 công việc đang quá hạn"
+    },
+    {
+      "level": "medium",
+      "text": "Thông báo số 21 có tỷ lệ xem chỉ 28% sau 24 giờ"
+    },
+    {
+      "level": "medium",
+      "text": "KP07 chưa cập nhật nội dung trong 9 ngày"
+    },
+    {
+      "level": "positive",
+      "text": "Khảo sát tháng 8 đã đạt 82% chỉ tiêu"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Tổng quan toàn phường",
+      "duration": 20
+    },
+    {
+      "id": 2,
+      "name": "Phản ánh kiến nghị",
+      "duration": 20
+    },
+    {
+      "id": 3,
+      "name": "Công việc điều hành",
+      "duration": 20
+    },
+    {
+      "id": 4,
+      "name": "Hiệu quả khu phố",
+      "duration": 25
+    },
+    {
+      "id": 5,
+      "name": "Truyền thông - cộng đồng",
+      "duration": 20
+    },
+    {
+      "id": 6,
+      "name": "Cảnh báo cần chỉ đạo",
+      "duration": 20
+    }
+  ]
+}
