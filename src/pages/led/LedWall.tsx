@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 import {
   Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Line, LineChart, Pie, PieChart,
   ResponsiveContainer, Tooltip, XAxis, YAxis,
@@ -30,6 +30,8 @@ const SEAM = 60;
 
 export default function LedWall() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const isStandalone = location.pathname === "/led";
   const [scene, setScene] = useState(0);
   const [playing, setPlaying] = useState(true);
   const [now, setNow] = useState(new Date());
@@ -141,8 +143,8 @@ export default function LedWall() {
           className="w-9 h-9 rounded-lg bg-slate-100 text-slate-600 flex items-center justify-center hover:bg-slate-200" title="Tải lại dữ liệu">
           <RefreshCw size={15} />
         </button>
-        <button onClick={() => navigate("/dashboard/overview")}
-          className="h-9 px-3 rounded-lg bg-slate-100 text-slate-600 text-[13px] hover:bg-slate-200">Thoát</button>
+        {!isStandalone && <button onClick={() => navigate("/dashboard/overview")}
+          className="h-9 px-3 rounded-lg bg-slate-100 text-slate-600 text-[13px] hover:bg-slate-200">Thoát</button>}
       </div>
 
       {/* Canvas 3840x2160 */}
