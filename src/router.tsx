@@ -178,7 +178,8 @@ export function AppRouter() {
 
             {/* Màn hình LED điều hành 3840x2160 */}
             <Route path="/dashboard/led" element={<RequireAuth><LedWall /></RequireAuth>} />
-            <Route path="/led" element={<RequireAuth><LedWall /></RequireAuth>} />
+            {/* Link trình chiếu công khai, tách riêng khỏi Dashboard */}
+            <Route path="/led" element={<LedWall />} />
 
             {/* Giao diện điện thoại cho Trưởng khu phố */}
             <Route path="/mobile" element={<Navigate to="/mobile/tasks" replace />} />
